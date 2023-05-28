@@ -1,0 +1,23 @@
+
+#if you need to use transformers library so need hugging face api
+transformers
+transformers[sentencepiece]
+datasets
+sacrebleu # this library is used as a evaluation metric {row-metrics} for test summarization and for row-metrics we need this library
+rouge_score 
+py7zr
+pandas
+nltk
+tqdm
+PyYAML
+matplotlib
+torch
+notebook
+boto3
+mypy-boto3-s3
+python-box==6.0.2
+ensure==1.0.2
+fastapi==0.78.0
+uvicorn==0.18.3
+Jinja2==3.1.2
+-e . #used to install setup.py file in which we write code for local packae installation

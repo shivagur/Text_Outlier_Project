@@ -10,3 +10,32 @@ All components modular code implementation
 Training pipeline
 prediction pipeline and user app creation
 final ci/cd deployment on aws...
+======================================================================================================================================================================================
+
+first thing s first what i had understood till now is created a new git repo in my github account and included a .gitignore one liscense file and readme file and then i had cloned that repo in my local pc.
+
+next what i had done is opened that project in vs code and created a template.py file for the project setup purpose....
+
+so in that file included all the necessary files including for deployment also like .github/workflows etc files and wrote a python script which reads through the files and creates files.
+
+so by running the template.py file we were able to setup our project files from scratch clean and neat and then committed the changes to github
+
+git add.
+git commit
+git push...
+
+Now we need to create a virtual env
+
+conda create -n textsummarizer python=3.9 -y {{{command for creating a virtual env}}}
+
+
+now after creating virtual env opened the requirements,txt file and whatever libs are necessary wrote them amd at the ende wrote ....... -e. which sets up the 
+
+
+Next in the setup.py file just wrote my username , project name as per the github repo credentials and then done...
+
+Now we need to run the requirementest.txt file to able to install all packages needed for our project...
+
+after successfully installing all packages then i had committed the files to github.....
+
+
