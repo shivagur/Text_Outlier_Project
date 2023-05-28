@@ -1,0 +1,12 @@
+End to end Text summarization...
+
+Intro and git setup
+project template creation
+project setup and requirements installation
+logging , utils and exception module
+project workflows
+All components Notebook experiment
+All components modular code implementation
+Training pipeline
+prediction pipeline and user app creation
+final ci/cd deployment on aws...
