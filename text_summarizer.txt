@@ -1,4 +1,4 @@
-End to end Text summarization...
+End to end Text summarization Project...
 
 Intro and git setup
 project template creation
@@ -29,7 +29,7 @@ Now we need to create a virtual env
 conda create -n textsummarizer python=3.9 -y {{{command for creating a virtual env}}}
 
 
-now after creating virtual env opened the requirements,txt file and whatever libs are necessary wrote them amd at the ende wrote ....... -e. which sets up the 
+now after creating virtual env opened the requirements.txt file and whatever libs are necessary wrote them ad at the end wrote ....... -e. which sets up the 
 
 
 Next in the setup.py file just wrote my username , project name as per the github repo credentials and then done...
@@ -37,5 +37,17 @@ Next in the setup.py file just wrote my username , project name as per the githu
 Now we need to run the requirementest.txt file to able to install all packages needed for our project...
 
 after successfully installing all packages then i had committed the files to github.....
+
+
+
+========================
+
+
+now what will do is setup of logging exception and utils modules for our project...
+
+
+
+
+
 
 
