@@ -43,7 +43,81 @@ after successfully installing all packages then i had committed the files to git
 ========================
 
 
-now what will do is setup of logging exception and utils modules for our project...
+now what will do is setup of logging exception and utils modules for our project... these one are easy to understand once you can refer afterwards...
+
+
+Next what we did is running our entire project from data collection to training and inference in jupyter notebook  and i also trained the model on train dataset but cuda error tried with different epochs will see again later.
+
+
+
+and after then what we did is updated readme file such that i can know from where i need to start the project like end to end implementation dots should be connected ....
+
+Next Data ingestion notebook ipynb experiment....is done  and understood the things quite well and also tried generating the artifacts folder inside research folder of the project.
+
+And then tried that notebook implementation inside the project as same updated config file and params file after that entity file  updated and also configuration.py file updated these all are just copy paste work as already implemented all these things inside jupyter notebook file named 01_data_ingestion.ipynb file....(understood the all the things happy for that)
+
+
+
+Now inside componenets folder created a file named data_ingestion.py file and updated the code which is already present inside  01_data_ingestion.ipynb file 
+
+Next inside pipeline also created new file named stage_01_data_ingestion.py file and inside this file just created object named config for this object and then called those functions...
+
+
+
+And finally inside main.py file wrote this code....
+
+
+from textSummarizer.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
+from textSummarizer.logging import logger
+
+
+STAGE_NAME = "Data Ingestion stage"
+try:
+   logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<") 
+   data_ingestion = DataIngestionTrainingPipeline()
+   data_ingestion.main()
+   logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+except Exception as e:
+        logger.exception(e)
+        raise e
+        
+        
+And now when you run the code file python main.py a new folder named aritfacts is generated with all the train test valid files .............So successfully completed data ingestion part.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
