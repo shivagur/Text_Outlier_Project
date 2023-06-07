@@ -84,6 +84,10 @@ except Exception as e:
         
 And now when you run the code file python main.py a new folder named aritfacts is generated with all the train test valid files .............So successfully completed data ingestion part.
 
+Same with the data validation as well if you stick with the ipynb file of data validation then you can easily write code for data validation as well...
+
+
+
 
 
 
